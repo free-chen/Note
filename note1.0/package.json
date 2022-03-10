@@ -1,0 +1,72 @@
+{
+  "name": "note-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^4.0.4",
+    "ali-oss": "^6.10.0",
+    "axios": "^0.19.2",
+    "browserslist": "^4.17.6",
+    "caniuse-lite": "^1.0.30001280",
+    "clipboard": "^2.0.8",
+    "core-js": "^3.6.5",
+    "echarts": "^5.0.2",
+    "element-ui": "^2.13.2",
+    "highlight.js": "^9.18.1",
+    "less-loader": "^6.0.0",
+    "markdown-loader": "^5.1.0",
+    "marked": "^0.8.2",
+    "mavon-editor": "^2.9.0",
+    "qiniu-js": "^2.5.5",
+    "quill": "^1.3.6",
+    "relation-graph": "^1.1.0",
+    "save": "^2.4.0",
+    "showdown": "^1.9.1",
+    "sockjs-client": "^1.5.0",
+    "stompjs": "^2.3.3",
+    "tinymce": "^5.10.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.9.3",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "^3.3.4",
+    "vue-showdown": "^2.4.1",
+    "vue-ueditor": "^0.1.3",
+    "vue-ueditor-wrap": "^2.4.4",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^4.1.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
